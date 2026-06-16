@@ -4,7 +4,7 @@ body
   font-family: 'Roboto', sans-serif;
   flex-direction: column;
   margin: 0;
- 
+  height: 100vh;
 }
 
 .header,.hero, .footer
@@ -14,9 +14,12 @@ body
 
 
 .mainHeroText{
+    display: flex;
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
+    flex-wrap: wrap;
+    max-width: 400px;
 }
 
 .secHeroText, .headerLinks
@@ -91,12 +94,15 @@ ul,li{
 }
 
 .heroButton{
+    display: flex;
     background-color: #3882F6;
     border: none;
     color: #E5E7EB;
     height: 25px;
     width: 90px;
     border-radius: 5px;
+    flex-wrap: wrap;
+    margin-top: 10px;
 }
 
 .quoteSpeaker{
@@ -111,12 +117,37 @@ ul,li{
 
 button{
     font-weight: 600;
+      display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .header
 {
     display: flex;
     justify-content: space-around;
-    flex-shrink: 0;
     flex-wrap: wrap;
+
 }
+
+.hero
+{
+   height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    flex-shrink: 0;
+}
+
+
+.secHeroText
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    
+}
+
+
+
