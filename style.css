@@ -46,10 +46,15 @@ body
 
 .quoteSection
 {
+    display: flex;
     background-color: #E5E7EB;
     font-size: 36px;
     color: #1F2937;
     font-weight: 300;
+    justify-content: center;
+    align-items: center;
+    
+   
 }
 
 .headerLogo
@@ -111,8 +116,13 @@ ul,li{
 }
 
 .quoteSpeaker{
+    display: flex;
     font-weight: 700;
     font-size: 14px;
+    width: 100px;
+    flex-wrap: wrap;
+    text-align: end;
+    margin-left: 250px;
 }
 
 .callToActionText{
@@ -187,6 +197,22 @@ button{
     border: 4px solid #3882F6;
     border-radius: 25px;
     margin-bottom: 10px;
+}
+
+.quote
+{
+    display: flex;
+    width: 400px;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+.quoteHolder
+{
+    width: 400px;
+    margin-bottom: 50px;
 }
 
 
