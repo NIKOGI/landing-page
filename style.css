@@ -29,8 +29,13 @@ body
 }
 
 .callToAction{
+    display: flex;
+    border: none;
+    width: 600px;
+    border-radius: 5px;
     background-color: #3882F6;
     color: #E5E7EB;
+   padding: 30px 80px 30px 80px;
 }
 
 .infoHeader
@@ -95,6 +100,8 @@ ul,li{
 
 .actionButton
 {
+    display: flex;
+    align-self: center;
     background-color: #3882F6;
     border: 2px solid #E5E7EB;
     color: #E5E7EB;
@@ -126,6 +133,9 @@ ul,li{
 }
 
 .callToActionText{
+    display: flex;
+    flex-wrap: wrap;
+    width: 250px;
     font-weight: 700;
     font-size: 20px;
 }
@@ -215,7 +225,22 @@ button{
     margin-bottom: 50px;
 }
 
+.signUpSection
+{
+    display: flex;
+    
+    margin-top: 60px;
+    margin-bottom: 60px;
+    align-items: center;
+    justify-content: center;
+}
 
+.callToActionSub
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+}
 
 
 
