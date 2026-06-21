@@ -1,10 +1,8 @@
 body
 { 
-  display: flex;
   font-family: 'Roboto', sans-serif;
-  flex-direction: column;
   margin: 0;
-  height: 100vh;
+  
 }
 
 .header,.hero, .footer
@@ -36,6 +34,7 @@ body
     background-color: #3882F6;
     color: #E5E7EB;
    padding: 30px 80px 30px 80px;
+  
 }
 
 .infoHeader
@@ -59,6 +58,7 @@ body
     justify-content: center;
     align-items: center;
     
+    
    
 }
 
@@ -69,7 +69,7 @@ body
     font-size: 18px;
     font-weight: 700;
     margin-top: 12px;
-    flex-shrink: 0;
+    
     align-items: center;
     justify-content: center;
 }
@@ -92,7 +92,7 @@ ul,li{
     list-style-type: none;
     gap: 10px;
     margin-top: 8px;
-    flex-shrink: 0;
+    
     align-items: center;
     justify-content: center;
     
@@ -161,7 +161,6 @@ button{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    flex-shrink: 0;
 }
 
 
@@ -178,6 +177,7 @@ button{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+
 }
 
 .images
@@ -228,11 +228,11 @@ button{
 .signUpSection
 {
     display: flex;
-    
     margin-top: 60px;
     margin-bottom: 60px;
     align-items: center;
     justify-content: center;
+    
 }
 
 .callToActionSub
@@ -241,6 +241,29 @@ button{
     flex-wrap: wrap;
     width: 500px;
 }
+
+.footer
+{
+    
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    
+}
+
+.content
+{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+
+
 
 
 
